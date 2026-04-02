@@ -1,36 +1,36 @@
 package edu.upenn.cit5940.common.dto;
 
 public class Article {
-	private String id;
-    private String title;
-    private String content;
-    private String date;
+	private String uri;
+	private String title;
+	private String body;
+	private String date;
 
-    public Article(String id, String title, String content, String date) {
-        this.id = id;
-        this.title = title;
-        this.content = content;
-        this.date = date;
-    }
+	public Article(String uri, String title, String body, String date) {
+	    this.uri = uri;
+	    this.title = title;
+	    this.body = body;
+	    this.date = date;
+	}
 
-    public String getId() {
-        return id;
-    }
+	public String getUri() {
+	    return uri;
+	}
 
-    public String getTitle() {
-        return title;
-    }
+	public String getTitle() {
+	    return title;
+	}
 
-    public String getContent() {
-        return content;
-    }
+	public String getBody() {
+	    return body;
+	}
 
-    public String getDate() {
-        return date;
-    }
+	public String getDate() {
+	    return date;
+	}
 
     @Override
     public String toString() {
-        return "Article\n" + "ID: " + id + "\n" + "Title: " + title + "\n" + "Date: " + date;
+        return "Article\n" + "URI: " + uri + "\n" + "Title: " + title + "\n" + "Body: " + body + "\n" + "Date: " + date;
     }
 }
