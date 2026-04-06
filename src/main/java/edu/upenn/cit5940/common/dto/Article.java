@@ -6,7 +6,6 @@ public class Article {
 	private String body;
 	private String date;
 
-	// The number of fields required to construct an Article.
 	public static final int EXPECTED_FIELD_COUNT = 16;
 
 	public Article(String uri, String title, String body, String date) {

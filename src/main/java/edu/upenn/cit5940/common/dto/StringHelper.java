@@ -20,8 +20,8 @@ public class StringHelper {
 
         //characters are replaced with a space and then split on whitespace
         text = text.toLowerCase().replaceAll("[^a-z0-9\\s-]", " ");
-        text = text.replaceAll("^-+", ""); //remove leading hyphens
-        text = text.replaceAll("-+$", ""); //remove trailing hyphens
+        text = text.replaceAll("^-+", "");
+        text = text.replaceAll("-+$", "");
         text = text.replaceAll("\\s-+", " ");
         text = text.replaceAll("-+\\s", " ");
 

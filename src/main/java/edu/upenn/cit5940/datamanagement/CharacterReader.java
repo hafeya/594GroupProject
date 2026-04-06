@@ -6,6 +6,7 @@ import java.nio.file.Paths;
 
 /**
  * @author nanzheng
+ * From solo project, used in CSVArticleReader
  */
 
 public class CharacterReader implements AutoCloseable {

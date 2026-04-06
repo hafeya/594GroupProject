@@ -15,18 +15,15 @@ public class Main {
 
 
 
-		//draft of M6PA refactoring - Main.java component
-		//TODO: need to add filepath argument into CSVArticleReader
+		//draft of M6PA refactoring - Main.java component (will revisit)
+		//TODO: add filepath argument into CSVArticleReader?
 		//CSVArticleReader reader = new CSVArticleReader();
-
-		//TODO: need to pass through articles here
+		//TODO: pass through articles here?
 		//IndexBuilder indexBuilder = new IndexBuilder();
-
-		//TODO: add in the inverted index here from indexbuilder
+		//TODO: add in the inverted index here from indexbuilder?
 		//SearchProcessor search = new SearchProcessor();
 
-		//TODO: i believe we pass the trie in here from indexbuilder
-		//AutocompleteProcessor autocomplete = new AutocompleteProcessor();
+
 
 		//TODO: insert CLI component here
 

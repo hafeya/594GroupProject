@@ -226,7 +226,6 @@ public class CSVArticleReader {
             return;
         }
 
-
         Article article = new Article(record.get(0), record.get(5), record.get(6), record.get(1));
 
         //add article to map; use the URI as key and the Article object as value
