@@ -17,17 +17,16 @@ public class Main {
 
 		//draft of M6PA refactoring - Main.java component
 		//TODO: need to add filepath argument into CSVArticleReader
-		CSVArticleReader reader = new CSVArticleReader();
-		List<Article> articles = reader.read();
+		//CSVArticleReader reader = new CSVArticleReader();
 
 		//TODO: need to pass through articles here
-		IndexBuilder indexBuilder = new IndexBuilder();
+		//IndexBuilder indexBuilder = new IndexBuilder();
 
 		//TODO: add in the inverted index here from indexbuilder
-		SearchProcessor search = new SearchProcessor();
+		//SearchProcessor search = new SearchProcessor();
 
 		//TODO: i believe we pass the trie in here from indexbuilder
-		AutocompleteProcessor autocomplete = new AutocompleteProcessor();
+		//AutocompleteProcessor autocomplete = new AutocompleteProcessor();
 
 		//TODO: insert CLI component here
 

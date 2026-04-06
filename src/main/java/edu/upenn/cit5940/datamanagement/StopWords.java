@@ -13,7 +13,7 @@ public class StopWords {
     private static Set<String> loadStopWords(String filepath) {
         Set<String> STOP_WORDS = new HashSet<>();
 
-        try (Scanner scanner = new Scanner(new FIle(filepath))) {
+        try (Scanner scanner = new Scanner(new File(filepath))) {
             while (scanner.hasNext()) {
                 STOP_WORDS.add(scanner.next().trim().toLowerCase());
             }
