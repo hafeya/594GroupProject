@@ -6,6 +6,8 @@ public class Article {
 	private String body;
 	private String date;
 
+	public static final int EXPECTED_FIELD_COUNT = 16;
+
 	public Article(String uri, String title, String body, String date) {
 	    this.uri = uri;
 	    this.title = title;
